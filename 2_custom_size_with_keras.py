@@ -1,9 +1,10 @@
-# Step-1: Import the Library 
+# Step-1: Import the Library
 from keras.preprocessing import image
 
 # Step-2: Set the variables containing Input Image and Output Image Path
-input_image_path = 'input_images/img1.png' # Replace with your Image Path
-output_image_path = 'output_images/img1_custom_size.jpg' # Replace with desired Image Path
+input_image_path = 'input_images/img1.png'  # Replace with your Image Path
+# Replace with desired Image Path
+output_image_path = 'output_images/img1_custom_size.jpg'
 
 # Step-3: Define Custom Image Size
 img_size = (128, 128)
